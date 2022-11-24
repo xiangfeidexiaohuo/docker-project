@@ -16,7 +16,7 @@ docker run -d \
      cloudnas/clouddrive
 ```
 
-/volume1/docker/CloudNAS 为存放配置文件、挂载的实际目录
+* /volume1/docker/CloudNAS 为存放配置文件、挂载的实际目录
 
 
 
@@ -26,7 +26,7 @@ docker run -d \
 docker run -d -t --name speedtest -p 6688:80 ilemonrain/html5-speedtest:latest
 ```
 
-6888 为web界面访问端口
+* 6888 为web界面访问端口
 
 
 
@@ -51,8 +51,8 @@ docker run -d \
   p3terx/aria2-pro:latest
 ```
 
-/volume2/DSM7/Downloads/aria2-config 为存放配置文件的实际目录
-/volume2/DSM7/Downloads 为下载的实际目录
+* /volume2/DSM7/Downloads/aria2-config 为存放配置文件的实际目录
+* /volume2/DSM7/Downloads 为下载的实际目录
 
 
 ```
@@ -64,7 +64,7 @@ docker run -d \
   p3terx/ariang:latest
 ```
 
-6880 为web界面访问端口
+* 6880 为web界面访问端口
 
 
 
@@ -88,8 +88,8 @@ docker run -d \
     linuxserver/qbittorrent:latest
 ```
 
-volume2/DSM7/Downloads/qbt-config 为存放配置文件的实际目录
-volume2/DSM7/Downloads 为下载的实际目录
+* volume2/DSM7/Downloads/qbt-config 为存放配置文件的实际目录
+* volume2/DSM7/Downloads 为下载的实际目录
 
 
 
@@ -110,8 +110,8 @@ docker run -d --name emby \
   lovechen/embyserver:latest
 ```
 
-/volume2/SATA1/Emby/config 为存放配置文件的实际目录
-/volume2/SATA1 为多媒体文件所在的实际目录
+* /volume2/SATA1/Emby/config 为存放配置文件的实际目录
+* /volume2/SATA1 为多媒体文件所在的实际目录
 
 
 
@@ -131,8 +131,8 @@ docker run -d --name jellyfin \
   jellyfin/jellyfin
 ```
 
-/mnt/sdc1/jellyfin/config 为存放配置文件的实际目录
-/mnt/sdc1 为多媒体文件所在的实际目录
+* /mnt/sdc1/jellyfin/config 为存放配置文件的实际目录
+* /mnt/sdc1 为多媒体文件所在的实际目录
 
 
 
